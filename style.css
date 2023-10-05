@@ -1,0 +1,92 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100;
+    background-color: rgb(140, 212, 140);
+}
+
+#panel
+{
+    height: 80%;
+    width: 65%;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    
+    
+}
+#ptop
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    background-color: rgb(53, 134, 53);
+    color: #fff;
+    padding: 0px 20%;
+}
+.box
+{
+    color: rgba(33, 155, 33, 0.979);
+    font-weight: 700;
+    font-size: 25px;
+    padding:10px  20px;
+    background-color: white;
+    border-radius: 5px;
+
+
+}
+#elem
+{
+    display: flex;
+    align-items: center;
+    gap: 20px; 
+}
+#elem,h2{
+    font-weight: 300; 
+    
+}
+ #pbtm
+ {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px ;
+    width: 100%;
+    height: calc(100% - 100px);
+    padding: 20px;
+ }
+ .bubble
+ {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: rgba(33, 155, 33, 0.979);
+    color:white; 
+   font-weight: 500;
+ }
+ .bubble:hover
+ {
+    background-color: rgb(10, 54, 10);
+    cursor: pointer;
+ }
+ 
+ 
